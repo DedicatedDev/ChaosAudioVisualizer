@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'ChaosAudioVisualizer/Classes/**/*'
+  s.source_files = 'ChaosAudioVisualizer/Sources/**/*'
   
   # s.resource_bundles = {
   #   'ChaosAudioVisualizer' => ['ChaosAudioVisualizer/Assets/*.png']
