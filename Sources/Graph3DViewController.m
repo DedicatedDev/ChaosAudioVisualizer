@@ -8,6 +8,7 @@
 
 #import "Graph3DViewController.h"
 #import <QuartzCore/QuartzCore.h>
+#import "TESTGLViewController.h"
 
 const CGFloat _xAngularVelocity=0.181f, _yAngularVelocity=0.092f, _zAngularVelocity=0.033f;
 
@@ -280,8 +281,8 @@ const CGFloat _xAngularVelocity=0.181f, _yAngularVelocity=0.092f, _zAngularVeloc
 {
 	NSLog( @"swiped!" );
 	
-	testglViewController *testgl = (testglViewController *)self.presentingViewController;
-	if( [testgl isKindOfClass:[testglViewController class]] )
+    TESTGLViewController *testgl = (TESTGLViewController *)self.presentingViewController;
+	if( [testgl isKindOfClass:[TESTGLViewController class]] )
 	{
 		[testgl stopAnimation];
 	}

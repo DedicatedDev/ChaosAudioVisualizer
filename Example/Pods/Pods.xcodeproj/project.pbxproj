@@ -18,13 +18,14 @@
 		69669D52269A17F200A808AE /* Graph3DViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 69669D45269A17F200A808AE /* Graph3DViewController.h */; };
 		69669D53269A17F200A808AE /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69669D46269A17F200A808AE /* EAGLView.m */; };
 		69669D54269A17F200A808AE /* Graph3DViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69669D47269A17F200A808AE /* Graph3DViewController.xib */; };
-		69669D55269A17F200A808AE /* testglViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 69669D48269A17F200A808AE /* testglViewController.h */; };
+		69669D55269A17F200A808AE /* TESTGLViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 69669D48269A17F200A808AE /* TESTGLViewController.h */; };
 		69669D56269A17F200A808AE /* Graph3DHarmonicsDrawPreset.h in Headers */ = {isa = PBXBuildFile; fileRef = 69669D49269A17F200A808AE /* Graph3DHarmonicsDrawPreset.h */; };
 		69669D57269A17F200A808AE /* EAGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 69669D4A269A17F200A808AE /* EAGLView.h */; };
 		69669D58269A17F200A808AE /* Graph3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69669D4B269A17F200A808AE /* Graph3DViewController.m */; };
 		69669D59269A17F200A808AE /* SinusViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 69669D4C269A17F200A808AE /* SinusViewController.h */; };
 		69669D5A269A17F200A808AE /* Graph3DHarmonicsDrawPreset.m in Sources */ = {isa = PBXBuildFile; fileRef = 69669D4D269A17F200A808AE /* Graph3DHarmonicsDrawPreset.m */; };
-		69669D5B269A17F200A808AE /* testglViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69669D4E269A17F200A808AE /* testglViewController.mm */; };
+		69669D5B269A17F200A808AE /* TESTGLViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69669D4E269A17F200A808AE /* TESTGLViewController.mm */; };
+		69669D6A269A1B4000A808AE /* THarmoniGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69669D69269A1B4000A808AE /* THarmoniGraph.swift */; };
 		6BFE307C82526AFCEDCEC5CDF09E3EEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		8B44A5B353BD588B787732D063C50066 /* ChaosAudioVisualizer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF1EDDBBFF91A2328C53D650895CA0A /* ChaosAudioVisualizer-dummy.m */; };
 		B5335E45BD00611C4A67116671B59808 /* Pods-ChaosAudioVisualizer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 246640FBFC2D618736608BF74419C575 /* Pods-ChaosAudioVisualizer_Example-dummy.m */; };
@@ -66,13 +67,14 @@
 		69669D45269A17F200A808AE /* Graph3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graph3DViewController.h; sourceTree = "<group>"; };
 		69669D46269A17F200A808AE /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
 		69669D47269A17F200A808AE /* Graph3DViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Graph3DViewController.xib; sourceTree = "<group>"; };
-		69669D48269A17F200A808AE /* testglViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testglViewController.h; sourceTree = "<group>"; };
+		69669D48269A17F200A808AE /* TESTGLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TESTGLViewController.h; sourceTree = "<group>"; };
 		69669D49269A17F200A808AE /* Graph3DHarmonicsDrawPreset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graph3DHarmonicsDrawPreset.h; sourceTree = "<group>"; };
 		69669D4A269A17F200A808AE /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
 		69669D4B269A17F200A808AE /* Graph3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Graph3DViewController.m; sourceTree = "<group>"; };
 		69669D4C269A17F200A808AE /* SinusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinusViewController.h; sourceTree = "<group>"; };
 		69669D4D269A17F200A808AE /* Graph3DHarmonicsDrawPreset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Graph3DHarmonicsDrawPreset.m; sourceTree = "<group>"; };
-		69669D4E269A17F200A808AE /* testglViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = testglViewController.mm; sourceTree = "<group>"; };
+		69669D4E269A17F200A808AE /* TESTGLViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TESTGLViewController.mm; sourceTree = "<group>"; };
+		69669D69269A1B4000A808AE /* THarmoniGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THarmoniGraph.swift; sourceTree = "<group>"; };
 		69B049A326964B89687D097FA255B2EC /* ChaosAudioVisualizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChaosAudioVisualizer.release.xcconfig; sourceTree = "<group>"; };
 		6AA0559087DADA7154C6FD7BC33B9E30 /* ChaosAudioVisualizer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChaosAudioVisualizer.modulemap; sourceTree = "<group>"; };
 		6EEAF81992FB5345D9B1A07D5AAE4EA2 /* Pods_ChaosAudioVisualizer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChaosAudioVisualizer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -229,9 +231,10 @@
 				69669D4C269A17F200A808AE /* SinusViewController.h */,
 				69669D43269A17F200A808AE /* SinusViewController.m */,
 				69669D44269A17F200A808AE /* SinusViewController.xib */,
-				69669D48269A17F200A808AE /* testglViewController.h */,
-				69669D4E269A17F200A808AE /* testglViewController.mm */,
+				69669D48269A17F200A808AE /* TESTGLViewController.h */,
+				69669D4E269A17F200A808AE /* TESTGLViewController.mm */,
 				69669D42269A17F200A808AE /* testglViewController.xib */,
+				69669D69269A1B4000A808AE /* THarmoniGraph.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -296,7 +299,7 @@
 				69669D59269A17F200A808AE /* SinusViewController.h in Headers */,
 				69669D56269A17F200A808AE /* Graph3DHarmonicsDrawPreset.h in Headers */,
 				09ABE45A15E1312F06994B97F246C2AB /* ChaosAudioVisualizer-umbrella.h in Headers */,
-				69669D55269A17F200A808AE /* testglViewController.h in Headers */,
+				69669D55269A17F200A808AE /* TESTGLViewController.h in Headers */,
 				69669D57269A17F200A808AE /* EAGLView.h in Headers */,
 				69669D52269A17F200A808AE /* Graph3DViewController.h in Headers */,
 			);
@@ -424,9 +427,10 @@
 			files = (
 				69669D50269A17F200A808AE /* SinusViewController.m in Sources */,
 				69669D58269A17F200A808AE /* Graph3DViewController.m in Sources */,
+				69669D6A269A1B4000A808AE /* THarmoniGraph.swift in Sources */,
 				69669D53269A17F200A808AE /* EAGLView.m in Sources */,
 				69669D5A269A17F200A808AE /* Graph3DHarmonicsDrawPreset.m in Sources */,
-				69669D5B269A17F200A808AE /* testglViewController.mm in Sources */,
+				69669D5B269A17F200A808AE /* TESTGLViewController.mm in Sources */,
 				8B44A5B353BD588B787732D063C50066 /* ChaosAudioVisualizer-dummy.m in Sources */,
 				5CE6200DBBA589C792B92784123303F8 /* ReplaceMe.swift in Sources */,
 			);

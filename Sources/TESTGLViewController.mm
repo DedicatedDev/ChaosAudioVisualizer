@@ -7,7 +7,7 @@
 //
 
 #import <QuartzCore/QuartzCore.h>
-#import "testglViewController.h"
+#import "TESTGLViewController.h"
 #import "EAGLView.h"
 #import "Graph3DViewController.h"
 //#include "ColorScale.h"
@@ -253,7 +253,7 @@ void Key(unsigned char key, int x, int y)
 
 // Uniform index.
 
-@interface testglViewController ()
+@interface TESTGLViewController ()
 @property (nonatomic, strong) EAGLContext *context;
 - (BOOL)loadShaders;
 - (BOOL)compileShader:(GLuint *)shader type:(GLenum)type file:(NSString *)file;
@@ -261,7 +261,7 @@ void Key(unsigned char key, int x, int y)
 - (BOOL)validateProgram:(GLuint)prog;
 @end
 
-@implementation testglViewController
+@implementation TESTGLViewController
 
 @synthesize animating, context;
 

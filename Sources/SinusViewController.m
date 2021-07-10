@@ -7,17 +7,17 @@
 //
 
 #import <QuartzCore/QuartzCore.h>
-
 #import "SinusViewController.h"
 #import "EAGLView.h"
+
 static int iter=800;
 static double scaleY1=1,scaleY2=1,scaleY3=1,scaleY4=1;
 // Uniform index.
 enum {
     UNIFORM_TRANSLATE,
-    NUM_UNIFORMS
+    NUM_SINS
 };
-GLint uniforms[NUM_UNIFORMS];
+GLint uniforms[NUM_SINS];
 
 // Attribute index.
 enum {
