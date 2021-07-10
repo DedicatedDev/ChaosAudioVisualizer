@@ -1,0 +1,16 @@
+PODS:
+  - ChaosAudioVisualizer (0.1.0)
+
+DEPENDENCIES:
+  - ChaosAudioVisualizer (from `../`)
+
+EXTERNAL SOURCES:
+  ChaosAudioVisualizer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ChaosAudioVisualizer: 32880e2953a47cc0011dbd9147f8546e30e4c5e4
+
+PODFILE CHECKSUM: 0fcef2d63184cfb2f0a5c5001811abe296dac920
+
+COCOAPODS: 1.10.1

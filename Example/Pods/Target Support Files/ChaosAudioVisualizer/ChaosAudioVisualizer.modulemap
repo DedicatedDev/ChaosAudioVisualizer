@@ -1,0 +1,6 @@
+framework module ChaosAudioVisualizer {
+  umbrella header "ChaosAudioVisualizer-umbrella.h"
+
+  export *
+  module * { export * }
+}
