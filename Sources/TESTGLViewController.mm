@@ -26,7 +26,7 @@ enum {
     UNIFORM_TRANSLATE,
     NUM_UNIFORMS
 };
-GLint uniforms[NUM_UNIFORMS];
+GLint uniformsTest[NUM_UNIFORMS];
 
 // Attribute index.
 enum {
@@ -595,7 +595,7 @@ void Key(unsigned char key, int x, int y)
     }
     
     // Get uniform locations.
-    uniforms[UNIFORM_TRANSLATE] = glGetUniformLocation(program, "translate");
+    uniformsTest[UNIFORM_TRANSLATE] = glGetUniformLocation(program, "translate");
     
     // Release vertex and fragment shaders.
     if (vertShader)

@@ -11,8 +11,7 @@
 		09ABE45A15E1312F06994B97F246C2AB /* ChaosAudioVisualizer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 443AFA449DD49FE9A576B1AEA1A815DA /* ChaosAudioVisualizer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13E7DF79AA8194D8D484B9BCA9E74CFD /* Pods-ChaosAudioVisualizer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7840B540524C69449F72FB594F4CEE /* Pods-ChaosAudioVisualizer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		202BC72BFB985FAC79A323B42D1E8567 /* Pods-ChaosAudioVisualizer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F44D631C3EBF16372DA5C1C0E15A62 /* Pods-ChaosAudioVisualizer_Tests-dummy.m */; };
-		5CE6200DBBA589C792B92784123303F8 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C649522DC204E187F0B7F52523091301 /* ReplaceMe.swift */; };
-		69669D4F269A17F200A808AE /* testglViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69669D42269A17F200A808AE /* testglViewController.xib */; };
+		69669D4F269A17F200A808AE /* TESTGLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69669D42269A17F200A808AE /* TESTGLViewController.xib */; };
 		69669D50269A17F200A808AE /* SinusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69669D43269A17F200A808AE /* SinusViewController.m */; };
 		69669D51269A17F200A808AE /* SinusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69669D44269A17F200A808AE /* SinusViewController.xib */; };
 		69669D52269A17F200A808AE /* Graph3DViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 69669D45269A17F200A808AE /* Graph3DViewController.h */; };
@@ -25,7 +24,6 @@
 		69669D59269A17F200A808AE /* SinusViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 69669D4C269A17F200A808AE /* SinusViewController.h */; };
 		69669D5A269A17F200A808AE /* Graph3DHarmonicsDrawPreset.m in Sources */ = {isa = PBXBuildFile; fileRef = 69669D4D269A17F200A808AE /* Graph3DHarmonicsDrawPreset.m */; };
 		69669D5B269A17F200A808AE /* TESTGLViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69669D4E269A17F200A808AE /* TESTGLViewController.mm */; };
-		69669D6A269A1B4000A808AE /* THarmoniGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69669D69269A1B4000A808AE /* THarmoniGraph.swift */; };
 		6BFE307C82526AFCEDCEC5CDF09E3EEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		8B44A5B353BD588B787732D063C50066 /* ChaosAudioVisualizer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF1EDDBBFF91A2328C53D650895CA0A /* ChaosAudioVisualizer-dummy.m */; };
 		B5335E45BD00611C4A67116671B59808 /* Pods-ChaosAudioVisualizer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 246640FBFC2D618736608BF74419C575 /* Pods-ChaosAudioVisualizer_Example-dummy.m */; };
@@ -61,7 +59,7 @@
 		443AFA449DD49FE9A576B1AEA1A815DA /* ChaosAudioVisualizer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChaosAudioVisualizer-umbrella.h"; sourceTree = "<group>"; };
 		5C97E51F9067AB87F7AFD189EEB110D8 /* Pods-ChaosAudioVisualizer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChaosAudioVisualizer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		617185B6AC0A28F53B1ADA7C73F56864 /* Pods_ChaosAudioVisualizer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChaosAudioVisualizer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		69669D42269A17F200A808AE /* testglViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = testglViewController.xib; sourceTree = "<group>"; };
+		69669D42269A17F200A808AE /* TESTGLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TESTGLViewController.xib; sourceTree = "<group>"; };
 		69669D43269A17F200A808AE /* SinusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinusViewController.m; sourceTree = "<group>"; };
 		69669D44269A17F200A808AE /* SinusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SinusViewController.xib; sourceTree = "<group>"; };
 		69669D45269A17F200A808AE /* Graph3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graph3DViewController.h; sourceTree = "<group>"; };
@@ -74,7 +72,6 @@
 		69669D4C269A17F200A808AE /* SinusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinusViewController.h; sourceTree = "<group>"; };
 		69669D4D269A17F200A808AE /* Graph3DHarmonicsDrawPreset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Graph3DHarmonicsDrawPreset.m; sourceTree = "<group>"; };
 		69669D4E269A17F200A808AE /* TESTGLViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TESTGLViewController.mm; sourceTree = "<group>"; };
-		69669D69269A1B4000A808AE /* THarmoniGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THarmoniGraph.swift; sourceTree = "<group>"; };
 		69B049A326964B89687D097FA255B2EC /* ChaosAudioVisualizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChaosAudioVisualizer.release.xcconfig; sourceTree = "<group>"; };
 		6AA0559087DADA7154C6FD7BC33B9E30 /* ChaosAudioVisualizer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChaosAudioVisualizer.modulemap; sourceTree = "<group>"; };
 		6EEAF81992FB5345D9B1A07D5AAE4EA2 /* Pods_ChaosAudioVisualizer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChaosAudioVisualizer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,7 +88,6 @@
 		BB25C9562AF279A9C52AEADAF63996CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BB9FA39D39754557EE5339177069AED6 /* Pods-ChaosAudioVisualizer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChaosAudioVisualizer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BE66F987F1427E22BF1AD42C8524E2C2 /* Pods-ChaosAudioVisualizer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChaosAudioVisualizer_Example.modulemap"; sourceTree = "<group>"; };
-		C649522DC204E187F0B7F52523091301 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ChaosAudioVisualizer/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		CE548E0242F772B03332D4D177632D98 /* Pods-ChaosAudioVisualizer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChaosAudioVisualizer_Tests-Info.plist"; sourceTree = "<group>"; };
 		DCF1EDDBBFF91A2328C53D650895CA0A /* ChaosAudioVisualizer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChaosAudioVisualizer-dummy.m"; sourceTree = "<group>"; };
 		DD2D3D92002EF61249189F5E288DE931 /* Pods-ChaosAudioVisualizer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChaosAudioVisualizer_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,7 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				69669D41269A17D600A808AE /* Sources */,
-				C649522DC204E187F0B7F52523091301 /* ReplaceMe.swift */,
 				4B2CECD17F61A61A3B78F618320AA76F /* Pod */,
 				B3D083FEA6FE36FD3BB2C732682E2D03 /* Support Files */,
 			);
@@ -233,8 +228,7 @@
 				69669D44269A17F200A808AE /* SinusViewController.xib */,
 				69669D48269A17F200A808AE /* TESTGLViewController.h */,
 				69669D4E269A17F200A808AE /* TESTGLViewController.mm */,
-				69669D42269A17F200A808AE /* testglViewController.xib */,
-				69669D69269A1B4000A808AE /* THarmoniGraph.swift */,
+				69669D42269A17F200A808AE /* TESTGLViewController.xib */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -412,7 +406,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69669D4F269A17F200A808AE /* testglViewController.xib in Resources */,
+				69669D4F269A17F200A808AE /* TESTGLViewController.xib in Resources */,
 				69669D54269A17F200A808AE /* Graph3DViewController.xib in Resources */,
 				69669D51269A17F200A808AE /* SinusViewController.xib in Resources */,
 			);
@@ -427,12 +421,10 @@
 			files = (
 				69669D50269A17F200A808AE /* SinusViewController.m in Sources */,
 				69669D58269A17F200A808AE /* Graph3DViewController.m in Sources */,
-				69669D6A269A1B4000A808AE /* THarmoniGraph.swift in Sources */,
 				69669D53269A17F200A808AE /* EAGLView.m in Sources */,
 				69669D5A269A17F200A808AE /* Graph3DHarmonicsDrawPreset.m in Sources */,
 				69669D5B269A17F200A808AE /* TESTGLViewController.mm in Sources */,
 				8B44A5B353BD588B787732D063C50066 /* ChaosAudioVisualizer-dummy.m in Sources */,
-				5CE6200DBBA589C792B92784123303F8 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
